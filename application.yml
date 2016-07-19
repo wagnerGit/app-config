@@ -1,12 +1,9 @@
-security:
-  basic:
-    enabled: false
+ server:
+   port: 8888
 
-management:
-  security:
-    enabled: false
-
-logging:
-  level:
-    io:
-      pivotal: DEBUG
+ spring:
+   cloud:
+     config:
+       server:
+         git:
+           uri: https://github.com/wagnerGit/app-config.git
