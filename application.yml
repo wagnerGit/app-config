@@ -6,4 +6,4 @@
      config:
        server:
          git:
-           uri: https://github.com/wagnerGit/app-config.git
+           uri: https://github.com/wagnerGit/app-config
